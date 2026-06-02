@@ -1,23 +1,8 @@
 # AI-Driven Neural Style Transfer
 
-This project applies AI-driven neural style transfer techniques to images and video frames while preserving temporal consistency between consecutive frames.
+This project applies AI-driven neural style transfer to videos while preserving temporal consistency between frames.
 
-## Features
-
-- Neural Style Transfer
-- Temporal Consistency Preservation
-- Video Frame Processing
-- Custom Style Image Support
-
-## Project Structure
-
-- `mainn.py` – Main execution script
-- `style_transfer.py` – Style transfer implementation
-- `temporal_consistency.py` – Temporal consistency module
-- `requirements.txt` – Required Python libraries
-- `starry night.jpg` – Example style image
-
-## Installation
+## Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -25,10 +10,24 @@ pip install -r requirements.txt
 
 ## Usage
 
+Navigate to the project directory and run:
+
 ```bash
-python mainn.py
+python mainn.py --style "starry night.jpg" --video firstvideo.mp4
 ```
 
-## Author
+## Project Structure
 
-Internship Project – Near East University
+- mainn.py
+- style_transfer.py
+- temporal_consistency.py
+- requirements.txt
+- starry night.jpg
+- firstvideo.mp4
+
+## Features
+
+- Neural Style Transfer
+- Video Processing
+- Temporal Consistency
+- Custom Style Image Support
