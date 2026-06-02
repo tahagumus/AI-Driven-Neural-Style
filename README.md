@@ -33,7 +33,7 @@ Traditional neural style transfer methods often produce flickering effects when 
 * `firstvideo.mp4` – Sample input video
 * `output/` – Directory containing the generated stylized video
 
-## Installation
+## Installationn
 
 ```bash
 pip install -r requirements.txt
