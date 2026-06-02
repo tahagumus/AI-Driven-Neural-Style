@@ -31,8 +31,7 @@ Traditional neural style transfer methods often produce flickering effects when 
 * `requirements.txt` – Required dependencies
 * `starry night.jpg` – Example style image
 * `firstvideo.mp4` – Sample input video
-
-* 
+* `output/` – Directory containing the generated stylized video
 
 ## Installation
 
@@ -40,7 +39,6 @@ Traditional neural style transfer methods often produce flickering effects when 
 pip install -r requirements.txt
 ```
 
-## Usage
 ## Running the Project
 
 Navigate to the project directory and run:
@@ -51,8 +49,8 @@ python mainn.py --style "starry night.jpg" --video firstvideo.mp4
 
 ## Input Files
 
-- Style image: `starry night.jpg`
-- Input video: `firstvideo.mp4`
+* Style image: `starry night.jpg`
+* Input video: `firstvideo.mp4`
 
 ## Output
 
@@ -62,14 +60,19 @@ Example:
 
 ```text
 output/
-└── stylized_video.mp4
 ```
+
+The final processed video can be found inside the `output` folder.
 
 ## Results
 
 The system applies the selected artistic style to the input video while maintaining consistency between frames to reduce flickering and improve visual quality.
 
+## Internship Information
+
+This project was developed during a software engineering internship and focuses on applying artificial intelligence techniques for video style transfer while maintaining visual consistency between frames.
+
 ## Authors
 
 * Taha GÜMÜŞ
-* Emir BALTACI ...
+* Emir BALTACI
