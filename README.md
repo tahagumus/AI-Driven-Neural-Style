@@ -1,2 +1,34 @@
-# AI-Driven-Neural-Style
-we developed  a system demo  that applies the artistic style of a famous painting (e.g., Van Gogh’s Starry Night) to a real-time webcam feed or video file while maintaining temporal consistency between frames.
+# AI-Driven Neural Style Transfer
+
+This project applies AI-driven neural style transfer techniques to images and video frames while preserving temporal consistency between consecutive frames.
+
+## Features
+
+- Neural Style Transfer
+- Temporal Consistency Preservation
+- Video Frame Processing
+- Custom Style Image Support
+
+## Project Structure
+
+- `mainn.py` – Main execution script
+- `style_transfer.py` – Style transfer implementation
+- `temporal_consistency.py` – Temporal consistency module
+- `requirements.txt` – Required Python libraries
+- `starry night.jpg` – Example style image
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python mainn.py
+```
+
+## Author
+
+Internship Project – Near East University
