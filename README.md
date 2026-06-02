@@ -1,14 +1,47 @@
 # AI-Driven Neural Style Transfer
 
-This project applies AI-driven neural style transfer to videos while preserving temporal consistency between frames.
+## Project Overview
 
-## Requirements
+This project was developed as part of an internship program. The goal is to apply neural style transfer techniques to video content while preserving temporal consistency between consecutive frames.
+
+## Objective
+
+Traditional neural style transfer methods often produce flickering effects when applied frame-by-frame to videos. This project aims to reduce these visual inconsistencies by incorporating temporal consistency mechanisms, resulting in smoother and more visually coherent stylized videos.
+
+## Features
+
+* AI-based neural style transfer
+* Video frame processing
+* Temporal consistency preservation
+* Custom style image support
+* Automated video stylization pipeline
+
+## Technologies Used
+
+* Python
+* PyTorch
+* OpenCV
+* NumPy
+
+## Project Structure
+
+* `mainn.py` – Main execution script
+* `style_transfer.py` – Neural style transfer implementation
+* `temporal_consistency.py` – Temporal consistency processing
+* `requirements.txt` – Required dependencies
+* `starry night.jpg` – Example style image
+* `firstvideo.mp4` – Sample input video
+
+* 
+
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
+## Running the Project
 
 Navigate to the project directory and run:
 
@@ -16,18 +49,27 @@ Navigate to the project directory and run:
 python mainn.py --style "starry night.jpg" --video firstvideo.mp4
 ```
 
-## Project Structure
+## Input Files
 
-- mainn.py
-- style_transfer.py
-- temporal_consistency.py
-- requirements.txt
-- starry night.jpg
-- firstvideo.mp4
+- Style image: `starry night.jpg`
+- Input video: `firstvideo.mp4`
 
-## Features
+## Output
 
-- Neural Style Transfer
-- Video Processing
-- Temporal Consistency
-- Custom Style Image Support
+After processing is completed, the generated stylized video will be saved in the `output/` directory.
+
+Example:
+
+```text
+output/
+└── stylized_video.mp4
+```
+
+## Results
+
+The system applies the selected artistic style to the input video while maintaining consistency between frames to reduce flickering and improve visual quality.
+
+## Authors
+
+* Taha GÜMÜŞ
+* Emir BALTACI ...
